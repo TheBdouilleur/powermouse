@@ -13,5 +13,5 @@ python, making the app really faster.
 - Install PyPy3: `sudo pacman -S pypy3`
 - Enable pip support in PyPy3: `pypy3 -m ensurepip`
 - Install modules: use commands in [requirements](#requirements), adding `pypy3
-  -m ` in front
+  -m ` in front of them
 
