@@ -1,9 +1,12 @@
+#!/usr/bin.pypy3
 '''Navigate and move your cursor with vim kebindings'''
+
 from pynput.keyboard import Listener, Key, KeyCode
 import pyautogui
 from easy_notify import notify
 
 pyautogui.FAILSAFE = False
+
 SMALL_MOVEMENT = 40
 QUICK_MOVEMENT = 40
 
