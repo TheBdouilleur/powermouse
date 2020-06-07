@@ -10,6 +10,8 @@ Say i3: add `bindsym $mod+p exec /path/to/powermouse.py` to your config file.
 - easy-notify (for notifications): `pip install easy-notify`
 - pynput (for reading global keyboard input): `pip install pynput`
 - pyautogui (for moving and clicking the cursor): `pip install pyautogui`
+- Linux: python3-xlib (for pyautogui): `sudo pacman -S python3-xlib`
+- macOS: rubicon-objc (for pyautogui): `brew install rubicon-objc`
 
 # It keeps lagging, what can I do ?
 Download [pypy3](https://pypy.org). PyPy is actually a Just-In-Time compiler for
