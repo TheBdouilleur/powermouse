@@ -8,8 +8,10 @@ from easy_notify import notify
 screenWidth, screenHeight = pyautogui.size()
 pyautogui.FAILSAFE = False
 
-SMALL_MOVEMENT = 40
-QUICK_MOVEMENT = 40
+SMALL_MOVEMENT = 4
+BIG_MOVEMENT = 40
+HUGE_MOVEMENT = 200
+DEFAULT_MOVEMENT = BIG_MOVEMENT
 
 LEFT_LEYS = [KeyCode.from_char('h'), Key.left]
 DOWN_KEYS = [KeyCode.from_char('j'), Key.down]
