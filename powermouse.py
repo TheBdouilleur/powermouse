@@ -33,13 +33,13 @@ def on_press(key):
     currentX, currentY = pyautogui.position()
 
     if key in LEFT_LEYS:
-        pyautogui.move(-SMALL_MOVEMENT, 0)
+        pyautogui.move(-DEFAULT_MOVEMENT, 0)
     if key in DOWN_KEYS:
-        pyautogui.move(0, SMALL_MOVEMENT)
+        pyautogui.move(0, DEFAULT_MOVEMENT)
     if key in UP_KEYS:
-        pyautogui.move(0, -SMALL_MOVEMENT)
+        pyautogui.move(0, -DEFAULT_MOVEMENT)
     if key in RIGHT_KEYS:
-        pyautogui.move(SMALL_MOVEMENT, 0)
+        pyautogui.move(DEFAULT_MOVEMENT, 0)
 
     if key in LEFTMOST_KEYS:
         pyautogui.moveTo(0, currentY)
