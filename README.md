@@ -9,22 +9,22 @@ Say i3: add `bindsym $mod+p exec /path/to/powermouse.py` to your config file.
 # Features
 Currently implemented:
 - Small movement navigation:
-    - <kbd>h<kbd> for right,
-    - <kbd>j<kbd> for down,
-    - <kbd>k<kbd> for up,
-    - <kbd>l<kbd> for down
+    - <kbd>h</kbd> for right,
+    - <kbd>j</kbd> for down,
+    - <kbd>k</kbd> for up,
+    - <kbd>l</kbd> for down
 
 - Border movement navigation:
-    - <kbd>0<kbd> for rightmost,
-    - <kbd>G<kbd> for bottom,
-    - <kbd>gg<kbd> for top,
-    - <kbd>$<kbd> for leftmost,
+    - <kbd>0</kbd> for rightmost,
+    - <kbd>G</kbd> for bottom,
+    - <kbd>gg</kbd> for top,
+    - <kbd>$</kbd> for leftmost,
 
 - Clicks and Drags:
-    - <kbd>c<kbd> for single click,
+    - <kbd>c</kbd> for single click,
 
 - Quit:
-    - <kbd>q<kbd> for quit,
+    - <kbd>q</kbd> for quit,
 
 # Requirements
 - easy-notify (for notifications): `pip install easy-notify`
